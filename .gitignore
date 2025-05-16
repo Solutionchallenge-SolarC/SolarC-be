@@ -1,0 +1,60 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Node.js 관련
+node_modules/
+
+# Firebase 관련 비공개 키 및 민감 정보
+*.json
+.env
+solutionchallenge-c03da-firebase-adminsdk-*.json
+
+# Dart 패키지 잠금 파일
+pubspec.lock
+new_solarc_fixed/pubspec.lock
+
+# 모델 체크포인트 및 임시 폴더
+checkpoints/
+temp/
